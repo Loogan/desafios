@@ -40,10 +40,38 @@ body {
 .list {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
-.list ul {
-  text-align: justify;
-  padding: 0 0px 0 10px;
+.list p {
+  text-align: center;
+  font-weight: 600;
+}
+
+.exercicios {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.733);
+  border: solid 2px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  width: 290px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.list li{
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+  color: rgb(175, 175, 175);
+  font-size: 14px;
+}
+
+.list a:hover {
+  color: #fff;  /* Muda a cor para branca ao passar o mouse */
+  transform: scale(1.1); /* Efeito de zoom */
 }
