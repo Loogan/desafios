@@ -50,20 +50,18 @@ main {
 
 .calculo h1 {
   text-align: center;
-  width: 200px;
+  width: 300px;
   font: 1em sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .calculo input {
-  width: 200px;
+  width: 100%;
   padding: 10px;
   border-radius: 5px;
   border: 2px solid #838eeb;
   text-align: center;
-}
-
-.calculo input::placeholder {
-  color: #838eeb;
 }
 
 .calculo input:hover {
@@ -72,6 +70,14 @@ main {
 
 .calculo input:focus {
   outline: none;
+}
+
+.diagonal {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0px;
 }
 
 .calculo button {
@@ -102,9 +108,16 @@ main {
     padding: 10px 20px;
   }
   
-  .calculo input {
+  .diagonal {
     width: 100%;
     max-width: 450px;
+    align-items: center;
+  }
+
+  .diagonal label {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 5px;
   }
 
   .calculo button {
