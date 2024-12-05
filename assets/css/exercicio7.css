@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #838eeb;
+  padding: 20px;
+}
+
+header a {
+  text-decoration: none;
+  background-color: #fff;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+header a:hover {  
+  background-color: #e4e0e0;
+}
+
+main {
+  padding: 20px;
+}
+
+.sequencia {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+}
+
+.sequencia h1 {
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.inputs {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+.inputs label {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 5px;
+}
+
+.inputs input {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.sequencia button {
+  width: 100%;
+  max-width: 600px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #838eeb;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 30px;
+}
+
+.sequencia button:hover {
+  background-color: #6972c9;
+}
+
+.sequencia p {
+  margin-top: 30px;
+  font-weight: bold;
+}
